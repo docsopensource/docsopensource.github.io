@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/open_source.svg').default,
     description: (
       <>
-        Open source encourages innovation through innovation through collaboration.
+        Open source encourages innovation through collaboration.
       </>
     ),
   },
