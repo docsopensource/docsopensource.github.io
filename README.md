@@ -1,33 +1,15 @@
-# Website
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/56113566/134766091-8f6f0c47-bca2-4fdf-8592-e93689ed266c.png" height= 400 width = 600 />
+</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<h2 align="center"> ✨ CONTRIBUTORS ✨</h2>
 
-### Installation
+<p align="center">
 
-```
-$ yarn
-```
+ <a href="https://github.com/girlscript/winter-of-contributing/graphs/contributors">
+ <img src="https://contrib.rocks/image?repo=girlscript/winter-of-contributing" />
 
-### Local Development
+</p>
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
