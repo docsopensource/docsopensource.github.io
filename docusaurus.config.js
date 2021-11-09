@@ -14,6 +14,7 @@ const config = {
   projectName: 'gwoc-opensource.github.io', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'deploy',
+  onBrokenLinks : 'ignore',
 
   presets: [
     [
@@ -22,8 +23,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,7 +43,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Background/background',
             position: 'left',
             label: 'OpenSource',
           },
@@ -58,24 +57,24 @@ const config = {
             items: [
               {
                 label: 'OpenSource',
-                to: '/docs/intro',
+                to: 'docs/Background/background',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'GWOC Community',
             items: [
               {
                 label: 'Github',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://github.com/girlscript/winter-of-contributing',
               },
               {
                 label: 'Twitter',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://twitter.com/girlscriptwoc?t=wQYmJKKM0e6hJI5UllXe4w&s=09',
               },
               {
                 label: 'LinkedIn',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.linkedin.com/company/girlscript-winter-of-contributing/',
               },
             ],
           },
@@ -83,13 +82,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Winter Of Contributing',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Domain Supervisor',
+                href: 'https://github.com/Aryamanz29',
               },
+
+              {
+                label: 'Winter Of Contributing Repository',
+                href: 'https://github.com/girlscript/winter-of-contributing',
+              },
+
             ],
+          
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Winter Of Contributing ❄`,
+        copyright: `Copyright © ${new Date().getFullYear()} Made With ❤ By <a href ="https://github.com/Aryamanz29"><strong>AryamanZ29</strong> </a> `,
       },
       prism: {
         theme: lightCodeTheme,
