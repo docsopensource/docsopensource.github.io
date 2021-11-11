@@ -6,7 +6,7 @@
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
-  color: rgba(45, 238, 110, 0.849);
+  color: rgba(255, 255, 255, 0.849);
   background-image: url('/static/img/open_source_banner.png');
   -moz-background-size:100% 100%;
   -webkit-background-size:100% 100%;

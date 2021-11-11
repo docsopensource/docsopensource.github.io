@@ -35,7 +35,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'GWOC ❄',
+        title: 'OpenSource',
         logo: {
           alt: 'My Site Logo',
           src: 'img/open_source.svg',
@@ -45,7 +45,7 @@ const config = {
             type: 'doc',
             docId: 'Background/background',
             position: 'left',
-            label: 'OpenSource',
+            label: 'Documentation',
           },
         ],
       },
@@ -53,11 +53,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'OpenSource',
             items: [
               {
-                label: 'OpenSource',
+                label: 'Documentation',
                 to: 'docs/Background/background',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/docsopensource/docsopensource.github.io',
               },
             ],
           },
