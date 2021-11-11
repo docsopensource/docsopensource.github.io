@@ -4,14 +4,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenSource',
-  tagline: 'Winter Of Contributing ❄',
-  url: 'https://gwoc-opensource.github.io/',
+  tagline: 'Winter Of Contributing - Opensource ❄',
+  url: 'https:/opensource.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'gwoc-opensource', // Usually your GitHub org/user name.
-  projectName: 'gwoc-opensource.github.io', // Usually your repo name.
+  organizationName: 'opensource', // Usually your GitHub org/user name.
+  projectName: 'opensource.github.io', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'deploy',
   onBrokenLinks : 'ignore',
