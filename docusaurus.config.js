@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OpenSource',
-  tagline: 'Opensource Docs ☀',
+  tagline: 'Documentation ☀',
   url: 'https:/docsopensource.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -56,12 +56,12 @@ const config = {
             title: 'OpenSource',
             items: [
               {
-                label: 'Documentation',
-                to: 'docs/Background/background',
-              },
-              {
                 label: 'Github',
                 href: 'https://github.com/docsopensource/docsopensource.github.io',
+              },
+              {
+                label: 'Contributors',
+                href: 'https://github.com/girlscript/winter-of-contributing/graphs/contributors',
               },
             ],
           },
